@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class JavaBasico {
 
     public void principal(){
-        System.out.println("Bienvenido Java Básico");
-        System.out.println("1. Operadores lógicos");
+        System.out.println("Bienvenido Java Basico");
+        System.out.println("1. Operadores logicos");
         System.out.println("2. Tipo de Dato");
         System.out.println("3. Estructura de control");
         System.out.println("4. Excepciones");
@@ -27,6 +27,14 @@ public class JavaBasico {
                 TipoDato o2 = new TipoDato();
                 o2.dato();
                 break;
+            case 3:
+                EstructuraControl ec = new EstructuraControl(80);
+                //ec.estructura();
+                ec.tablaMultiplicar(7);
+                break;
+            case 4:
+                Excepciones ex = new Excepciones();
+                ex.manejoError();
         
         }
     }
