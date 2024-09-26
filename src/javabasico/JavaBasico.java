@@ -35,6 +35,12 @@ public class JavaBasico {
             case 4:
                 Excepciones ex = new Excepciones();
                 ex.manejoError();
+            case 5:
+                EstructuraDatos ed = new EstructuraDatos();
+                //ed.array();
+                //ed.list();
+                ed.map();
+                break;
         
         }
     }
